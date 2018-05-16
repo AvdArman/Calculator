@@ -1,4 +1,7 @@
 #include "calc.hpp"
+void sqrtFun(int num) {
+    std::cout<<sqrt(num);
+}
 
 void min(int num1, int num2) {
     std::cout << "Enter two numbers: " << std::endl;
