@@ -3,8 +3,8 @@
 
 #include <iostream>
 
-int sum();
 int min(num1, num2);
+int sum(int num1, int num2);
 int diff();
 float div(float num1, float num2);
 int mult();
