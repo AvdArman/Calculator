@@ -6,7 +6,7 @@ int diff();
 int div();
 int mult();
 int mod();
-int ln();
+float sqrt();
 int pow();	
 
 
