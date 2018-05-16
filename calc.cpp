@@ -1,6 +1,9 @@
 #include "calc.hpp"
 
 int mod(int num1, int num2) {
+    if (0 == num2) {
+        return 0;
+    }
     return num1 % num2;
 }
 
