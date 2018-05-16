@@ -9,7 +9,6 @@ float div(float num1, float num2);
 int mult();
 float sqrt();
 int mod(int, int);
-int pow();	
-int myPow();	
+int myPow(int number, int exponent);	
 
 #endif

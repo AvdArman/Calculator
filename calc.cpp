@@ -14,19 +14,19 @@ int div(float num1, float num2) {
     }
 }
 
-int myPow(int number, int exp) {
-    if (0 == number && 0 == exp) {
+int myPow(int number, int exponent) {
+    if (0 == number && 0 == exponent) {
         std::cout << "\n---Invaled calculation!---\n" << std::endl;
         return 0;
     }
-    if (0 == exp) {
+    if (0 == exponent) {
         return 1;
     }
     if (0 == number) {
         return 0;
     }
     int sum = 1;
-    if (0 < exp) {
+    if (0 < exponent) {
         for (int i = 1; i <= number; ++i) {
             sum *= number;
         }
