@@ -9,6 +9,10 @@ int main() {
 
     switch(temp) {
     //ameqd dzer gorcoxutyan hamar greq dzer case ev function@
+    case 1: 
+        int num1;
+        int num2;
+        std :: cout << sum(num1, num2) << "\n";
     }
     } while (temp != 0);
     
