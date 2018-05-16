@@ -43,14 +43,15 @@ int main() {
                     std::cout<<"Input number is not valid";
                 }
                 break;
-			case 7: 
-				int num = 0;
-				int exponent = 0;
-				std::cout << "Enter number: ";
-				std::cin >> num;
-				std::cout << "Enter exp: ";
-				std::cin >> exponent;
-				std::cout << "pow(" << num << "," << exponent << ") = " << myPow(num,exponent) << std::endl;
+            case 7: 
+                int num = 0;
+                int exponent = 0;
+                std::cout << "Enter number: ";
+                std::cin >> num;
+                std::cout << "Enter exp: ";
+                std::cin >> exponent;
+                std::cout << "pow(" << num << "," << exponent << ") = " << myPow(num,exponent) << std::endl;
+                break;
         }
     } while (0 != temp);
     return 0;

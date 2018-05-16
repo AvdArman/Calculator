@@ -1,4 +1,5 @@
 #include "calc.hpp"
+
 void sqrtFun(int num) {
     std::cout<<sqrt(num);
 }
@@ -54,6 +55,8 @@ int myPow(int number, int exponent) {
         }
         return sum;
     }
+}
+
 int sum(int num1, int num2) {
     return num1 + num2;
 }
