@@ -1,10 +1,20 @@
 #include "calc.hpp"
 
+<<<<<<< HEAD
 
 int mult(int num1, int num2) {
     return num1 * num2;
 }
 
+=======
+void min(int num1, int num2) {
+    std::cout << "Enter two numbers: " << std::endl;
+    std::cin >> num1 >> num2;
+    std::cout << num1 << " minus " << num2 << " is:" << std::endl;
+    std::cout << num1-num2 << std::endl;
+}
+~  
+>>>>>>> 0e57be2d85a0da0eacde363cce714c685711f008
 int mod(int num1, int num2) {
     if (0 == num2) {
         return 0;
@@ -45,4 +55,6 @@ int myPow(int number, int exp) {
         }
         return sum;
     }
+int sum(int num1, int num2) {
+    return num1 + num2;
 }
