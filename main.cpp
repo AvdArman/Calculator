@@ -24,7 +24,14 @@ int main() {
                 std::cin >> exp;
                 std::cout << "pow(" << num << "," << exp << ") = " << myPow(num, exp) << std::endl;
                 break;
-        }
+                
+    case 1: 
+        int num1;
+        int num2;
+        std :: cin >> num1 >> num2;
+        std :: cout << sum(num1, num2) << "\n";
+        break;
+        
     } while (0 != temp);
 
     return 0;

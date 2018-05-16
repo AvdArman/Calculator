@@ -40,4 +40,6 @@ int myPow(int number, int exp) {
         }
         return sum;
     }
+int sum(int num1, int num2) {
+    return num1 + num2;
 }
