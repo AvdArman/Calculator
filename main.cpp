@@ -18,8 +18,6 @@ int main() {
 		break; 
             case 3:
                 std::cout << "Input numbers";
-                float num1 = 0;
-                float num2 = 0;
                 std::cin >> num1 >> num2;
                 std::cout << div(num1,num2) << "\n";
                 break;
@@ -31,7 +29,7 @@ int main() {
             case 6:
                 std::cout<<"Input number";
                 std::cin>>num1;
-                if(num >= 0) {
+                if( 0 <= num1) {
                     sqrtFun(num1);
                 } else {
                     std::cout<<"Input number is not valid";

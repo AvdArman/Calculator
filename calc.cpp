@@ -10,7 +10,7 @@ void min(int num1, int num2) {
     std::cout << num1 << " minus " << num2 << " is:" << std::endl;
     std::cout << num1-num2 << std::endl;
 }
-~  
+
 int mod(int num1, int num2) {
     if (0 == num2) {
         return 0;
@@ -18,7 +18,7 @@ int mod(int num1, int num2) {
     return num1 % num2;
 }
 
-int div(float num1, float num2) {
+float div(float num1, float num2) {
     if (0 == num2) {
         std::cout << "Division by zero!" << "\n";
         return -1;
