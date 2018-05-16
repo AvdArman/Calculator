@@ -5,8 +5,9 @@ int sum();
 int diff();
 int div();
 int mult();
-int mod();
 float sqrt();
+int mod(int, int);
+int ln();
 int pow();	
 
 
