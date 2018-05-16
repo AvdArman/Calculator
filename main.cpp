@@ -15,6 +15,8 @@ int main() {
                 break;
 	    case 2:
 		min(num1, num2); 
+
+		break; 
             case 3:
                 std::cout << "Input numbers";
                 float num1 = 0;
@@ -41,16 +43,14 @@ int main() {
                     std::cout<<"Input number is not valid";
                 }
                 break;
-            case 7: 
-                int num = 0;
-                int exp = 0;
-                std::cout << "Enter number: ";
-                std::cin >> num;
-                std::cout << "Enter exp: ";
-                std::cin >> exp;
-                std::cout << "pow(" << num << "," << exp << ") = " << myPow(num, exp) << std::endl;
-                break;
-
+			case 7: 
+				int num = 0;
+				int exponent = 0;
+				std::cout << "Enter number: ";
+				std::cin >> num;
+				std::cout << "Enter exp: ";
+				std::cin >> exponent;
+				std::cout << "pow(" << num << "," << exponent << ") = " << myPow(num,exponent) << std::endl;
         }
     } while (0 != temp);
     return 0;
