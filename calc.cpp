@@ -4,6 +4,10 @@ void sqrtFun(int num) {
     std::cout<<sqrt(num);
 }
 
+int mult(int num1, int num2) {
+    return num1 * num2;
+}
+
 void min(int num1, int num2) {
     std::cout << "Enter two numbers: " << std::endl;
     std::cin >> num1 >> num2;
