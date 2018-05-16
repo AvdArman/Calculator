@@ -1,6 +1,6 @@
 #include "calc.hpp"
 
-int mult(int num1, int num2) {
-    return num1 * num2;
+void mult(int num1, int num2) {
+    std::cout<< num1*num2 <<std::endl;
 }
 
