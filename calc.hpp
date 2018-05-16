@@ -4,7 +4,7 @@
 int sum();
 int diff();
 int div();
-int mult();
+int mult(int,int);
 int mod();
 int ln();
 int pow();	
