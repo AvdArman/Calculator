@@ -1,4 +1,7 @@
 #include "calc.hpp"
+void sqrtFun(int num) {
+    std::cout<<sqrt(num);
+}
 
 int mult(int num1, int num2) {
     return num1 * num2;
