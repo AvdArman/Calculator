@@ -1,11 +1,8 @@
 #include "calc.hpp"
 
-
-
 int mult(int num1, int num2) {
     return num1 * num2;
 }
-
 
 void min(int num1, int num2) {
     std::cout << "Enter two numbers: " << std::endl;
