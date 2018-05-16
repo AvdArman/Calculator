@@ -1,4 +1,3 @@
-#include <iostream>
 #include "calc.hpp"
 
 int main() {
@@ -10,6 +9,11 @@ int main() {
         std::cin>>temp;
 
         switch(temp) {
+            case 1:
+                std :: cout << "Input numbers(like this 4 8)";
+                std :: cin >> num1 >> num2;
+                std :: cout << sum(num1, num2) << "\n";
+                break;
             case 5:
                 std :: cout << "Input numbers(like this 4 8)";
                 std :: cin >> num1 >> num2;
@@ -33,7 +37,8 @@ int main() {
                 std::cin >> exp;
                 std::cout << "pow(" << num << "," << exp << ") = " << myPow(num, exp) << std::endl;
                 break;
+
         }
     } while (0 != temp);
-return 0;
+    return 0;
 }
