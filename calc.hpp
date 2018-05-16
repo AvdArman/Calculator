@@ -2,6 +2,7 @@
 #define CALC_HPP
 
 int sum();
+int min();
 int diff();
 int div();
 int mult();
