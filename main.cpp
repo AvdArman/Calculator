@@ -7,6 +7,8 @@ int main() {
 		std::cin >> temp;
 
 		switch(temp) {
+			case 2:
+				min(num1, num2); 
 			case 7: 
 				int num = 0;
 				int exp = 0;
