@@ -7,13 +7,15 @@ int main() {
     do{
         std::cout<<"For sumuation enter 1\nFor subtraction enter 2\nFor division enter3 \nFor multiplication enter 4 \nFor mod enter5 \nFor root enter 6\nFor exponent enter 7\nFor exit enter 0\n";
         std::cin>>temp;
-
-        switch(temp) {
+		switch(temp) {
             case 1:
                 std :: cout << "Input numbers(like this 4 8)";
                 std :: cin >> num1 >> num2;
                 std :: cout << sum(num1, num2) << "\n";
                 break;
+			case 2:
+				min(num1, num2);
+				break; 
             case 5:
                 std :: cout << "Input numbers(like this 4 8)";
                 std :: cin >> num1 >> num2;
