@@ -1,4 +1,7 @@
 #include "calc.hpp"
+void sqrtFun(int num) {
+    std::cout<<sqrt(num);
+}
 
 int mod(int num1, int num2) {
     if (0 == num2) {
