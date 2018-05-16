@@ -1,8 +1,10 @@
 #ifndef CALC_HPP
 #define CALC_HPP
+
 #include <iostream>
 #include <math.h>
-int min(num1, num2);
+
+void min(int num1, int num2);
 int sum(int num1, int num2);
 int diff();
 float div(float num1, float num2);
