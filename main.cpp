@@ -9,6 +9,13 @@ int main() {
 		std::cin>>temp;
 
 		switch(temp) {
+            case 3:
+                std::cout << "Input numbers";
+                float num1 = 0;
+                float num2 = 0;
+                std::cin >> num1 >> num2;
+                std::cout << div(num1,num2) << "\n";
+                break;
 			case 5:
 				std :: cout << "Input numbers(like this 4 8)";
 				std :: cin >> num1 >> num2;
