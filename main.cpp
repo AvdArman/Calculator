@@ -14,7 +14,8 @@ int main() {
                 std :: cout << sum(num1, num2) << "\n";
                 break;
 			case 2:
-				min(num1, num2); 
+				min(num1, num2);
+				break; 
             case 5:
                 std :: cout << "Input numbers(like this 4 8)";
                 std :: cin >> num1 >> num2;
